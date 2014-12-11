@@ -7,7 +7,7 @@ module LeeMe
 
   # Internal: lee
   def self.lee
-    @lee ||= Magick::Image.from_blob(File.open(File.join(File.dirname(__FILE__), '..', 'dat-image', 'lee.png')).read).first
+    @lee ||= Magick::Image.from_blob(File.open(File.join(File.dirname(__FILE__), '..', 'dat-image', 'zero-fucks-trans.png')).read).first
   end
 
   # Check to see if the file has already been composited. If so, return the path
